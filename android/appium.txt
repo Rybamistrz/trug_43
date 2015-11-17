@@ -1,0 +1,8 @@
+[caps]
+platformName = "android"
+deviceName = "SH49HWT00158"
+appPackage = "com.android.settings"
+appActivity = ".Settings"
+
+[appium_lib]
+require = ["./spec/requires.rb"]

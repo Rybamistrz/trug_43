@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'rspec'
+gem 'rspec-core'
+gem 'rspec-expectations'
+gem 'spec'
+gem 'rest-client'
+gem 'appium_lib'
+gem 'appium_console'
+gem 'rake'
