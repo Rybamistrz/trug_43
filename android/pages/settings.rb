@@ -1,8 +1,12 @@
 module Pages
   module Settings
     class << self
-      def find_and_click(resource)
-        driver.find_element(:name, resource).click
+      def find_and_click(element)
+        driver.find_element(:name, element).click
+      end
+
+      def has_text(text)
+        wait { text_exact text }
       end
     end
   end

@@ -27,6 +27,8 @@ RSpec.configure do |config|
     driver_quit
   end
 
+  config.include SettingsHelper
+
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
